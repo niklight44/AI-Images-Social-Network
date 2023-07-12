@@ -1,0 +1,26 @@
+.masonry{
+    width: 100%;
+    padding: 0 20px;
+    box-sizing: border-box;
+    columns: 5;
+    column-gap: 20px;
+}
+
+.masonry__item{
+    width: 100%;
+    height: auto;
+    margin-bottom: 30px;
+}
+
+.masonry__item img{
+    max-width: 100%;
+    border-radius: 10px;
+
+}
+
+@media (max-width: 1200px) {
+    .masonry{
+        columns: 2;
+    }
+
+}
